@@ -15,6 +15,17 @@ Install pacakge dependencies:
 ```sh
 pip install -r Requirements.txt
 
+##Configuration
+
+[Obtain an API Key] (https://www.alphavantage.co/support/#support) from AlphaVantage. 
+
+Then create a local ".env" file and provide the key like this: 
+
+```sh
+# this is the ".env" file...
+
+ALPHAVANTAGE_API_KEY="______"
+```
 
 ## Usage
 
