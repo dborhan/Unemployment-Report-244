@@ -1,8 +1,8 @@
 
 # this is the "web_app/__init__.py" file...
 
-#import os
-#from dotenv import load_dotenv
+import os
+from dotenv import load_dotenv
 from flask import Flask
 
 from web_app.routes.home_routes import home_routes
@@ -11,7 +11,7 @@ from web_app.routes.unemployment_routes import unemployment_routes
 #from web_app.routes.book_routes import book_routes
 #from web_app.routes.weather_routes import weather_routes
 
-#load_dotenv()
+load_dotenv()
 
 #SECRET_KEY = os.getenv("SECRET_KEY", default="super secret") # set this to something else on production!!!
 
