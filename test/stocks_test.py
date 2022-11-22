@@ -18,7 +18,7 @@ def test_usd_formatting():
 
 
 def test_fetch_stock_data():
-    df = fetch_stock_data()
+    df = fetch_stock_data("NFLX")
     assert isinstance(df, DataFrame)
     assert "timestamp" in df.columns
     assert "adjusted_close" in df.columns
